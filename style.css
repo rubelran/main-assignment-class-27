@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+/* .main-menu{
+    width: 1024px;
+    margin: auto;
+} */
+
+.header-menu {
+    background-color: #22c3a3;
+    
+    
+}
+.header-text {
+	float: left;
+	
+	margin-top: 5px;
+}
+.header-text h2 {
+	color: #fff;
+	margin-left: 50px;
+}
+.menu {
+	float: right;
+
+	margin-right: 50px;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #ddd;
+	margin-top: 5px;
+	padding: 10px 10px;
+}
+.menu ul li a:hover{}
+
+
+
+
+
+/* banner section */
+
+
+
+.banner-section {
+	background-image: url(https://i.ibb.co/MpD9c8K/header-bg01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	padding: 300px 0;
+	background-position: center;
+}
+.banner-section h1 {
+	display: inline-block;
+	color: #fff;
+	position: relative;
+	font-size: 43px;
+}
+.banner-section p {
+	color: #ddd;
+	top: 26px;
+	position: relative;
+	display: block;
+}
+.button {
+	width: 124px;
+	height: 34px;
+	border: 2px solid #ddd;
+	display: inline-block;
+	top: 64px;
+	line-height: 32px;
+	border-radius: 5px;
+	position: relative;
+}
+.button a {
+	color: #ddd;
+	text-decoration: none;
+	display: inline-block;
+	
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+
+
+/* our-service-section */
+
+
+.our-service-section{
+border-bottom: 2px solid #00b992;	
+}
+.our-service-section .our {
+	text-align: center;
+	margin-top: 70px;
+}
+.our-service-section .lorem1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.service1 {
+	display: inline-block;
+	width: 23%;
+	height: 175px;
+	margin-left: 20px;
+}
+.service1 h1{
+	text-align: center;
+	
+}
+.service1 h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.service1 p{
+	text-align: center;
+
+}
+
+
+/* about section */
+
+
+.about-section{
+	margin-bottom: 80px;
+}
+.about-section h2{
+	text-align: center;
+	margin-top: 50px;
+}
+.about-section .al{
+	text-align: center;
+}
+
+.image-div {
+	width: 40%;
+	float: left;
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 50px;
+}
+.image-div img{
+max-width: 100%;	
+}
+.text-div {
+	width: 52%;
+	display: inline-block;
+	float: right;
+	margin-top: 88px;
+}
+.text-div .who{}
+.text-div .lorem1{
+	margin-bottom: 10px;
+}
+
+
+/* contact us section */
+
+
+.contact-us-section {
+	text-align: center;
+	background-color: #f6f6f6;
+	height: 370px;
+	/* margin-bottom: 46px; */
+}
+.contact-us-section .con {
+	text-align: center;
+	margin-top: 68px;
+	display: inline-block;
+}
+.contact-us-section .lor {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.contact-div1 {
+	display: inline-block;
+	width: 33%;
+}
+
+.contact-div2 {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 406px;
+	width: 200px;
+	height: 200px;
+}
+
+.contact-div3 {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 691px;
+	width: 200px;
+	height: 200px;
+}
+/* .vv {
+	display: inline-block;
+	bottom: 18px;
+	position: relative;
+} */
+
+.three-div {
+	position: relative;
+	margin-top: 40px;
+}
+
+
+.contact-div1 h3{
+	text-align: center;
+	color: #0dbf9b;
+}
+.contact-div2 h3{
+	text-align: center;
+	color: #0dbf9b;
+}
+.contact-div3 h3{
+	text-align: center;
+	color: #0dbf9b;
+}
+.contact-div1 p{
+	text-align: center;
+	/* color: #0dbf9b; */
+}
+
+/* footer-menu */
+
+
+.footer-menu-section{
+background-color:#0dbf9b ;
+text-align: center;
+}
+.section-down{
+
+}
+.section-down ul{
+	list-style: none;
+	
+}
+.section-down ul li{
+	display: inline-block;
+	margin-left: -4px;
+
+	
+}
+.section-down ul li a {
+display: inline-block;
+color: #fff;
+cursor: pointer;
+margin-left: 20px;
+font-size: 25px;	
+	
+}
+
+
+
+
+.footer-div{
+	background-color: black;
+}
+.footer-div h3{
+	text-align: center;
+	color: #dddddd;
+}
